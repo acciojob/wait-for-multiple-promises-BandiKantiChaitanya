@@ -1,7 +1,7 @@
 let output = document.getElementById('output');
 let results = [];
 
-output.innerHTML = `<tr><td colspan="2">Loading...</td></tr>`;
+output.innerHTML = `<tr id="loading" ><td colspan="2">Loading...</td></tr>`;
 
 let promise1 = () => {
     return new Promise((resolve) => {
