@@ -1,7 +1,7 @@
 //your JS code here. If required.
 let output=document.getElementById('output')
 
-output.innerHTML=`<tr>Loading...</tr>`
+output.innerHTML=`<tr><td>Loading...</td></tr>`
 let promise1 = () => {
     return new Promise((resolve) => {
         setTimeout(() => {
